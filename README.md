@@ -22,7 +22,10 @@ This repository showcases sample datasets I annotated using **LabelImg** and **L
 - **Annotation Tool**: LabelMe
 - **Format Provided**: LabelMe JSON (`*.json`)
 - **Details**:
-  - I can convert these annotations to YOLO segmentation format using `labelme2yolo` or custom tools as needed.
+  - I can convert these annotations to YOLO segmentation format using `labelme2yolo.
+  - Please visit my Kaggle profile to view a YOLO-formatted dataset created using labelme2yolo.
+  - Another dataset, instance_segmentation.zip (Birds), contains additional samples for demonstration. Only a few samples are uploaded here due to file size limitations. You can find the full dataset on my Kaggle 
+                    profile.
 - **Video Demo**: [Watch on YouTube](https://youtu.be/1BOiiCgOL0M)
 
 ---
