@@ -14,7 +14,7 @@ This repository showcases sample datasets I annotated using **LabelImg** and **L
 - **Details**:
   - Annotations were created using LabelImg and saved in both XML (Pascal VOC) and YOLO formats.
   - I manually converted annotations from `.xml` (Pascal VOC) to `.txt` (YOLO) using custom scripts.
-  - Includes a demo video (`object_detection.mp4`) showcasing the annotation process.
+  - **Video Demo**: [Watch on YouTube](https://youtu.be/hA3VoqOLGMY)
 
 ---
 
