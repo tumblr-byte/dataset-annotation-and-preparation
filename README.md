@@ -1,75 +1,71 @@
-Dataset Annotation Samples – Object Detection, Instance Segmentation & Image Classification
-This repository contains sample datasets I created using LabelImg and LabelMe, showcasing my dataset annotation and format conversion skills for various computer vision tasks.
+# Dataset Annotation Samples – Object Detection, Instance Segmentation & Image Classification
 
-Contents
-1. object_detection.zip
-Annotations created using: LabelImg
+This repository showcases sample datasets I annotated using **LabelImg** and **LabelMe**, demonstrating my proficiency in dataset preparation, annotation, and format conversion for various computer vision tasks, including **YOLO** training.
 
-Formats included:
+---
 
-YOLO format (.txt files in the labels/ folder)
+## Contents
 
-Pascal VOC format (.xml files in the annotations/ folder)
+### 1. `object_detection.zip`
+- **Annotation Tool**: LabelImg
+- **Formats Provided**:
+  - YOLO format (`labels/*.txt`)
+  - Pascal VOC format (`annotations/*.xml`)
+- **Details**:
+  - Annotations were created using LabelImg and saved in both XML (Pascal VOC) and YOLO formats.
+  - I manually converted annotations from `.xml` (Pascal VOC) to `.txt` (YOLO) using custom scripts.
+  - Includes a demo video (`object_detection.mp4`) showcasing the annotation process.
 
-I used LabelImg to annotate images and save them in both XML and YOLO formats.
+---
 
-I can also convert annotations from .xml (Pascal VOC) to .txt (YOLO) manually using custom scripts.
+### 2. `instance_segmentation.zip`
+- **Annotation Tool**: LabelMe
+- **Format Provided**: LabelMe JSON (`*.json`)
+- **Details**:
+  - I can convert these annotations to YOLO segmentation format using `labelme2yolo` or custom tools as needed.
+- **Video Demo**: [Watch on YouTube](https://youtu.be/1BOiiCgOL0M)
 
-The file object_detection.mp4 is included in the repository as a demo video showing the annotation process using LabelImg.
+---
 
-2. Instance_segmentation.zip
-Annotations created using: LabelMe
+### 3. `image_classification.csv`
+- Demonstrates how I organize datasets for image classification tasks.
+- **CSV Columns**:
+  - `filename`
+  - `label`
+  - `folder` (e.g., `train`, `test`, `valid`)
+- Custom CSV structures can be created based on project requirements.
 
-Format included: .json files (LabelMe format)
+---
 
-I can convert these annotations into YOLO segmentation format using tools like labelme2yolo, based on project requirements.
+##  Tools & Skills
 
-3. Image_classification.csv
-A sample CSV file is included, demonstrating how I prepare datasets for image classification tasks.
+- **Annotation Tools**:
+  - LabelImg – Object detection (YOLO, Pascal VOC)
+  - LabelMe – Instance segmentation (JSON)
+- **Annotation Format Conversions**:
+  - XML -> TXT 
+  - Custom conversions as needed
+- **Dataset Preparation**:
+  - YOLO detection and segmentation formatting
+  - Classification CSV creation
+  - Dataset splitting into train/test/validation
+  - CSV customization for various pipelines
 
-Columns included:
+---
 
-filename
+##  Why Work With Me
 
-label
+- Clean, consistent, and well-organized annotations
+- Proficiency with multiple annotation tools and formats
+- Reliable format conversions tailored to specific models or frameworks
+- Video demos for transparency and clarity
+- Fast learner with adaptability to new labeling tools and dataset types
 
-folder (e.g., train, test, valid)
+---
 
-I can split image datasets into training, testing, and validation sets.
+## Contact
 
-I can also add more columns or customize the CSV structure based on your specific requirements.
-
-Tools and Skills
-LabelImg – Object detection annotation
-
-LabelMe – Instance segmentation annotation
-
-Manual annotation format conversion (e.g., XML → TXT, JSON → COCO, etc.)
-
-YOLO dataset preparation for both detection and segmentation
-
-CSV file generation for classification tasks
-
-Dataset splitting into train/test/validation sets
-
-Flexible CSV customization based on project needs
-
-Why Hire Me
-Clean and organized annotations
-
-Support for multiple annotation formats (YOLO, Pascal VOC, JSON)
-
-Format conversions tailored to your target model or framework
-
-Demo videos available for reference and clarity
-
-Demo Videos
-The video object_detection.mp4 is included in this GitHub repository and demonstrates the annotation process using LabelImg.
-
-Due to file size limitations, the instance segmentation demo video is not included here.
-However, you can view both the object detection and instance segmentation demo videos on my Kaggle profile.
-
- Feel free to visit my Kaggle page to watch the full demonstrations.
-
+I'm open to freelance, contract, or full-time roles in dataset annotation and computer vision dataset preparation.  
+Feel free to reach out to discuss how I can support your project!
 
 
