@@ -13,7 +13,7 @@ This repository showcases sample datasets I annotated using **LabelImg** and **L
   - Pascal VOC format (`annotations/*.xml`)
 - **Details**:
   - Annotations were created using LabelImg and saved in both XML (Pascal VOC) and YOLO formats.
-  - I manually converted annotations from `.xml` (Pascal VOC) to `.txt` (YOLO) using custom scripts.
+  - I can manually convert annotations from .xml (Pascal VOC) to .txt (YOLO) using custom scripts as well.
   - **Video Demo**: [Watch on YouTube](https://youtu.be/hA3VoqOLGMY)
 
 ---
